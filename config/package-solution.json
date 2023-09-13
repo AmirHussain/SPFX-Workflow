@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "autoapproval-client-side-solution",
+    "id": "cd461897-4481-4cd7-beb8-d1f0eb2a946d",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.4"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "autoapproval description"
+      },
+      "longDescription": {
+        "default": "autoapproval description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "autoapproval Feature",
+        "description": "The feature that activates elements of the autoapproval solution.",
+        "id": "302c924c-ed4c-494c-84e9-707f6434f649",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/autoapproval.sppkg"
+  }
+}
